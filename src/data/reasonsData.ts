@@ -1,0 +1,68 @@
+import { ReasonCard } from '../types';
+
+export const REASONS_DATA: ReasonCard[] = [
+  {
+    id: 1,
+    number: 1,
+    title: 'Your Beautiful Smile',
+    emoji: '😊',
+    message: 'Your smile can turn even my worst day into a beautiful one.',
+    accentColor: 'from-pink-400 to-rose-400',
+  },
+  {
+    id: 2,
+    number: 2,
+    title: 'Your Cute Anger',
+    emoji: '🥹',
+    message: "Even when you're angry, you somehow manage to be adorable.",
+    accentColor: 'from-rose-400 to-amber-400',
+  },
+  {
+    id: 3,
+    number: 3,
+    title: 'Your Caring Heart',
+    emoji: '💗',
+    message: 'The way you care about little things makes you so special.',
+    accentColor: 'from-pink-400 to-purple-400',
+  },
+  {
+    id: 4,
+    number: 4,
+    title: 'Your Beautiful Soul',
+    emoji: '✨',
+    message: 'Your kindness is one of the things I admire most.',
+    accentColor: 'from-amber-400 to-pink-400',
+  },
+  {
+    id: 5,
+    number: 5,
+    title: 'The Way You Laugh',
+    emoji: '😂',
+    message: 'Your laughter is my favourite sound.',
+    accentColor: 'from-purple-400 to-pink-400',
+  },
+  {
+    id: 6,
+    number: 6,
+    title: 'Your Support',
+    emoji: '❤️',
+    message: 'You make me feel stronger just by being there.',
+    accentColor: 'from-rose-500 to-pink-500',
+  },
+  {
+    id: 7,
+    number: 7,
+    title: 'Your Little Habits',
+    emoji: '🌸',
+    message: 'Even your smallest habits make me smile.',
+    accentColor: 'from-pink-300 to-rose-400',
+  },
+  {
+    id: 8,
+    number: 8,
+    title: 'Simply Being You',
+    emoji: '🫶',
+    message: "I don't need a reason to love you. I love you for being you.",
+    accentColor: 'from-rose-400 to-lavender-500',
+  },
+];
